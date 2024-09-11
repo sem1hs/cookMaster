@@ -1,0 +1,14 @@
+.card {
+  width: max-content;
+  position: relative;
+}
+.card::after {
+  content: "";
+  position: absolute;
+  background: white;
+  width: 50%;
+  height: 4px;
+  left: 0;
+  bottom: -12px;
+  border-radius: 16px;
+}
