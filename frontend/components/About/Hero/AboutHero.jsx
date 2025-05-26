@@ -1,6 +1,7 @@
 import React from "react";
 
 const AboutHero = () => {
+  const a = 5;
   return (
     <section
       className={`bg-heroImage md:pt-[150px] pb-[120px] py-20 bg-cover bg-no-repeat`}
